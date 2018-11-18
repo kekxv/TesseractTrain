@@ -5,3 +5,5 @@ tif/
 jTessBoxEditor/
 
 .vscode
+
+*.log
