@@ -11,7 +11,7 @@ fontname=OCR_B
 num=2
 
 # 图像处理：
-convert 'image/*' -density 300 ./tif/%d.tif
+convert 'image/*' -density 300 -background white -flatten +matte ./tif/%d.tif
 
 # jTessBoxEditor
 # 打开 jTessBoxEditor

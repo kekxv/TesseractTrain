@@ -28,3 +28,4 @@ mv pffmtable $lang.pffmtable
 combine_tessdata $lang.
 
 rm $lang.inttemp $lang.pffmtable $lang.normproto $lang.shapetable $lang.unicharset unicharset
+rm *.log
